@@ -1,0 +1,83 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.contenedor {
+    width: 500px;
+    background-color: white;
+    border: 2px solid #333;
+    border-radius: 15px;
+    padding: 30px;
+}
+
+h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+/* Formulario */
+form {
+    display: flex;
+    gap: 5px;
+    margin-bottom: 20px;
+}
+
+input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #777;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #444;
+}
+
+/* Lista de tareas */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.tarea {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.tarea span {
+    flex: 1;
+}
+
+.tarea input[type="checkbox"] {
+    cursor: pointer;
+}
+
+.completada span {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.botonEliminar {
+    background-color: transparent;
+    color: red;
+    font-size: 18px;
+    padding: 5px;
+}
